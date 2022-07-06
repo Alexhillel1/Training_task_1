@@ -1,0 +1,161 @@
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}
+/* Header-start*/
+
+.header {
+  height: 100vh;
+  background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%),
+    url(/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 57px;
+}
+
+.nav-flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: 69px;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-item {
+  margin-right: 40px;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-link {
+  font-family: 'Anton';
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.header-tel {
+  font-family: 'Anton';
+  font-size: 17px;
+  line-height: 1.52;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.tel-flex {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-info {
+  margin-top: 216px;
+}
+
+.header-title h1 {
+  font-family: 'Anton';
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.header-title p {
+  font-family: 'Anton';
+  font-size: 100px;
+  line-height: 1.51;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.btn-header {
+  display: inline-block;
+  font-family: 'Anton';
+  font-size: 17px;
+  line-height: 1.52;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  border: 1px solid #fff;
+  padding: 18px 50px;
+  margin-top: 50px;
+}
+
+/*Header-end*/
+
+/*About-start*/
+
+.about-title {
+  font-family: 'Anton';
+  font-size: 50px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.about-txt-item h3 {
+  font-family: 'Anton';
+  font-size: 25px;
+  line-height: 1.52;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.about-txt-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--black-color);
+}
+
+/*About-end*/
+
+/*Footer-start*/
+.footer-item p {
+  font-size: 15px;
+  line-height: 1.33;
+}
+/*Footer-end*/
