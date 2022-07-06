@@ -129,12 +129,25 @@ img {
 
 /*About-start*/
 
+.section-about {
+  margin-top: 113px;
+}
+
 .about-title {
   font-family: 'Anton';
   font-size: 50px;
   line-height: 1.5;
   text-transform: uppercase;
   color: var(--black-color);
+}
+
+.about-txt {
+  display: flex;
+  padding-top: 58px;
+}
+
+.about-txt-item {
+  margin-right: 40px;
 }
 
 .about-txt-item h3 {
@@ -146,14 +159,45 @@ img {
 }
 
 .about-txt-item p {
+  width: 564px;
   font-size: 16px;
   line-height: 1.5;
   color: var(--black-color);
+  padding-top: 19px;
 }
 
+.about-txt-item p:last-child {
+  width: 584px;
+}
+
+.about-img {
+  display: flex;
+  margin-top: 65px;
+}
+
+.about-img-item {
+  margin-right: 30px;
+}
+
+.about-img-item:last-child {
+  margin-right: 0;
+}
 /*About-end*/
 
 /*Footer-start*/
+.footer-list {
+  display: flex;
+  margin-top: 115px;
+}
+
+.footer-item {
+  margin-right: 55px;
+}
+
+.footer-item:last-child {
+  margin-right: 0;
+}
+
 .footer-item p {
   font-size: 15px;
   line-height: 1.33;
