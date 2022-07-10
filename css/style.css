@@ -41,7 +41,7 @@ img {
 .header {
   height: 100vh;
   background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%),
-    url(/img/header-bg.jpg);
+    url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 57px;
